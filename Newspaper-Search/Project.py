@@ -37,8 +37,9 @@ def final(img_names, name):
                         y = y + 110
                     else:
                         x = x + 110
-
-                cv2.imshow('Contact Sheet', contact_sheet)
+                # print(type(contact_sheet))
+                contact_sheet.show()
+                # cv2.imshow('Contact Sheet', contact_sheet)
 
 
 zip_files = zip.ZipFile('readonly/small_img.zip')
@@ -48,4 +49,4 @@ for file in zip_files.infolist():
     images[file_name] = [Img.open(temp_img)]
     img__names.append(file_name)
 
-final(img__names, 'Mark')
+final(img__names, 'November')
