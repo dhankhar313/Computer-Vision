@@ -1,6 +1,6 @@
 import cv2
 
-video = cv2.VideoCapture('WIN_20200812_21_38_10_Pro.mp4')
+video = cv2.VideoCapture('temp.mp4')
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye_tree_eyeglasses.xml')

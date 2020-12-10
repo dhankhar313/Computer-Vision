@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Computer Vision.iml" filepath="$PROJECT_DIR$/.idea/Computer Vision.iml" />
+      <module fileurl="file://E:/Docs/Project/Sem 5/18_CSE_12_18BCS2278/Application/.idea/flaskOcr.iml" filepath="E:/Docs/Project/Sem 5/18_CSE_12_18BCS2278/Application/.idea/flaskOcr.iml" />
+    </modules>
+  </component>
+</project>
